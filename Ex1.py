@@ -1,7 +1,7 @@
 prompt = "Insert one number: "
 
-a = input(prompt)
-b = input(prompt)
+a = int(input(prompt))
+b = int(input(prompt))
 
 result = a + b
 
