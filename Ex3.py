@@ -20,15 +20,19 @@ while not finish:
     choice = int(input())
     if choice == 1:
         new_task = input("Tell me the new task: ")
+        print("")
         tasks.append(new_task)
     elif choice == 2:
         print("These are your tasks")
         todo_print(tasks)
+        print("")
         num_task = int(input("Which task you want to remove?"))
+        print("")
         tasks.pop(num_task-1)
     elif choice == 3:
         print("These are your tasks")
         todo_print(tasks)
+        print("")
     elif choice == 4:
         finish = True
     else:
